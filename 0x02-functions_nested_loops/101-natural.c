@@ -2,11 +2,11 @@
 
 /**
 
- *main - check for multiples of 3 and 5
+ * main - Entry point
 
  *
 
- *Return: 0 always
+ * Return: Always 0 (Success)
 
  */
 
@@ -14,24 +14,22 @@ int main(void)
 
 {
 
-int x = 1024, y, sum = 0;
+	int i, sum = 0;
 
-for (y = 0; y < x; y++)
+	for (i = 0; i < 1024; i++)
 
-{
+	{
 
-if ((y % 3 == 0) || (y % 5 == 0))
+		if ((i % 5) == 0 || (i % 3) == 0)
 
-{
+			sum += i;
 
-sum = sum + y;
+	}
 
-}
+	printf("%d\n", sum);
 
-}
-
-printf("%d\n", sum);
-
-return (0);
+	return (0);
 
 }
+
+
