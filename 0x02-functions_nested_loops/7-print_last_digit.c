@@ -2,28 +2,34 @@
 
 /**
 
- * print_last_digit - Prints the last digit of a number.
+ * print_last_digit - Check Holberton
 
- * @n: The number in question.
+ * @r: An integer input
 
- *
+ * Description: This function prints the last digit of a number
 
- * Return: Value of the last digit.
+ * Return: last digit of number r
 
  */
 
-int print_last_digit(int n)
+int print_last_digit(int r)
 
 {
 
-	int last_digit = n % 10;
+	int n;
 
-	if (last_digit < 0)
+	if (r < 0)
 
-		last_digit *= -1;
+		n = -1 * (r % 10);
 
-	_putchar(last_digit + '0');
+	else
 
-	return (last_digit);
+		n = r % 10;
+
+	_putchar((n % 10) + '0');
+
+	return (n % 10);
 
 }
+
+
