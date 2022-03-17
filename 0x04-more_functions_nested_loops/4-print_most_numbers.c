@@ -3,7 +3,7 @@
  * Auth: Brennan D Baraban
  */
 
-#include "holberton.h"
+#include "main.h"
 
 /**
  * print_most_numbers - Prints the numbers from 0-9 except for 2 and 4.
