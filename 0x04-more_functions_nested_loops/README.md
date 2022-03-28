@@ -1,7 +1,6 @@
-# C - Pointers, arrays and strings
+# C - More functions, more nested loops
 
-In this project, I learned about what and how to use pointers and arrays and
-the differences between the two as well as how to use and manipulate strings in C.
+In this project, I continued to learn about using nested loops and writing functions in C.
 
 ## Tests :heavy_check_mark:
 
@@ -13,71 +12,78 @@ the differences between the two as well as how to use and manipulate strings in 
 
 ## Header File :file_folder:
 
-* [holberton.h](holberton.h): Header file containing prototypes for all functions written in the project.
+* [holberton.h](./holberton.h): Header file containing prototypes for all functions written in the project.
 
-| File              | Prototype                               |
-| ----------------- | --------------------------------------- |
-| `0-reset_to_98.c` | `void reset_to_98(int *n);`             |
-| `1-swap.c`        | `void swap_int(int *a, int *b);`        |
-| `2-strlen.c`      | `int _strlen(char *s);`                 |
-| `3-puts.c`        | `void _puts(char *str);`                |
-| `4-print_rev.c`   | `void print_rev(char *s);`              |
-| `5-rev_string.c`  | `void rev_string(char *s);`             |
-| `6-puts2.c`       | `void puts2(char *str);`                |
-| `7-puts_half.c`   | `void puts_half(char *str);`            |
-| `8-print_array.c` | `void print_array(int *a, int n);`      |
-| `9-strcpy.c`      | `char *_strcpy(char *dest, char *src);` |
-| `100-atoi.c`      | `int _atoi(char *s);`                   |
+| File                     | Prototype                        |
+| ------------------------ | -------------------------------- |
+| `0-isupper.c`            | `int _isupper(int c);`           |
+| `1-isdigit.c`            | `int _isdigit(int c);`           |
+| `2-mul.c`                | `int mul(int a, int b);`         |
+| `3-print_numbers.c`      | `void print_numbers(void);`      |
+| `4-print_most_numbers.c` | `void print_most_numbers(void);` |
+| `5-more_numbers.c`       | `void more_numbers(void);`       |
+| `6-print_line.c`         | `void print_line(int n);`        |
+| `7-print_diagonal.c`     | `void print_diagonal(int n);`    |
+| `8-print_square.c`       | `void print_square(int size);`   |
+| `10-print_triangle.c`    | `void print_triangle(int size);` |
+| `101-print_number.c`     | `void print_number(int n);`      |
 
 ## Tasks :page_with_curl:
 
-* **0. 98 Battery st.**
-  * [0-reset_to_98.c](./0-reset_to_98.c): C function that takes a pointer to an
-  `int` as a parameter and updates the value it points to to `98`.
+* **0. isupper**
+  * [0-isupper.c](./0-isupper.c): C function that checks for uppercase characters. Returns
+  `1` if the character is uppercase, `0` otherwise.
 
-* **1. Don't swap horses in crossing a stream**
-  * [1-swap.c](./1-swap.c): C function that swaps the value of two integers.
+* **1. isdigit**
+  * [1-isdigit.c](./1-isdigit.c): C function that checks for a digit (`0` through `9`).
+  Returns `1` if the character is a digit, `0` otherwise.
 
-* **2. This report, by its very length, defends itself against the risk of being read**
-  * [2-strlen.c](./2-strlen.c): C function that returns the length of a string.
+* **2. Collaboration is multiplication**
+  * [2-mul.c](./2-mul.c): C function that multiplies two integers. Returns the value of
+  the multiplication.
 
-* **3. I do not fear computers. I fear the lack of them**
-  * [3-puts.c](./3-puts.c): C function that prints a string, followed by a new line,
-  to `stdout`.
+* **3. The numbers speak for themselves**
+  * [3-print_numbers.c](./3-print_numbers.c): C function that prints the numbers `0` to
+  `9`, followed by a new line.
 
-* **4. I can only go one way. I've not got a reverse gear**
-  * [4-print_rev.c](./4-print_rev.c): C function that prints a string, in reverse,
-  followed by a new line.
+* **4. I believe in numbers and signs**
+  * [4-print_most_numbers](./4-print_most_numbers.c): C function that prints the numbers
+  `0` to `9` except for `2` and `4`, followed by a new line.
 
-* **5. A good engineer thinks in reverse and asks himself about the stylistic consequences of the components and systems he proposes**
-  * [5-rev_string.c](./5-rev_string.c): C function that reverses a string.
+* **5. Numbers constitute the only universal language**
+  * [5-more_numbers.c](./5-more_numbers.c): C function that prints the numbers `0` to
+  `14`, followed by a new line, ten times.
 
-* **6. Half the lies they tell about me aren't true**
-  * [6-puts2.c](./6-puts2.c): C function that prints every other character of a string,
-  followed by a new line.
+* **6. The shortest distance between two points is a straight line**
+  * [6-print_line.c](./6-print_line.c): C function that draws a straight line in the terminal
+  using the character `_`, followed by a new line.
+    * If the function receives length input of zero or less, only a new line is printed.
 
-* **7. Winning is only half of it. Having fun is the other half**
-  * [7-puts_half.c](./7-puts_half.c): C function that prints the second half of a string,
-  followed by a new line.
+* **7. I feel like I am diagonally parked in a parallel universe**
+  * [7-print_diagonal.c](./7-print_diagonal.c): C function that draws a diagonal
+  line in the terminal using the `\` character, followed by a new line.
+    * If the function receives length input of zero or less, only a new line is printed.
 
-* **8. Arrays are not pointers**
-  * [8-print_array.c](./8-print_array.c): C function that prints an input `n` elements
-  of an array of integers, followed by a new line.
-    * Numbers are separated by a comma followed by a space.
-    * Numbers are displayed in the same order as they are stored in the array.
+* **8. You are so much sunshine in every square inch**
+  * [8-print_square.c](./8-print_square.c): C function that prints a square using the `#`
+  character, followed by a new line.
+    * If the function receives size input of zero or less, only a new line is printed.
 
-* **9. strcpy**
-  * [9-strcpy.c](./9-strcpy.c): C function that copies the string pointed to by
-  `src`, including the terminating null byte (`\0`), to the buffer pointed to by `dest`.
-    * Returns the pointer to `dest`.
+* **9. Fizz-Buzz**
+  * [9-fizz_buzz.c](./9-fizz_buzz.c): C program that prints the numbers from `1` to
+  `100`, but for multiples of three, `Fizz` is printed instead of the number, for
+  multiples of five, `Buzz`, and for multiples of both three and five, `FizzBuzz`.
+    * Each number or word is separated by a space.
 
-* **10. Great leaders are willing to sacrifice the numbers to save the people. Poor leaders sacrifice the people to save the numbers**
-  * [100-atoi.c](./100-atoi.c): C function that converts a string to an integer
-  without using `long`, new variable arrays, or hard-coded special values, as follows:
-    * The number in the string can be preceded by an infinite number of characters.
-    * Takes into account all `+` and `-` signs before the number.
-    * If there are no numbers in the string, the function returns `0`.
+* **10. Triangles**
+  * [10-print_triangle.c](./10-print_triangle.c): C function that prints a triangle using
+  the `#` character, followed by a new line.
+    * If the function receives size input of zero or less, only a new line is printed.
 
-* **11. Don't hate the hacker, hate the code**
-  * [101-keygen.c](./101-keygen.c): C program that generates random valid passwords
-  for the program [101-crackme](https://github.com/holbertonschool/0x04.c).
+* **11. The problem of distinguishing prime numbers from composite numbers and of resolving the latter into their prime factors is known to be one of the most important and useful in arithmetic**
+  * [100-prime_factor.c](./100-prime_factor.c): C program that prints the largest prime factor
+  of the number `612852475143`, followed by a new line.
+
+* **12. Numbers have life; they're not just symbols on paper**
+  * [101-print_number.c](./101-print_number.c): C function that prints an integer without
+  using `long`, arrays, pointers, or hard-coded special values.
