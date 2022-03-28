@@ -12,7 +12,7 @@ In this project, I continued to learn about using nested loops and writing funct
 
 ## Header File :file_folder:
 
-* [holberton.h](./holberton.h): Header file containing prototypes for all functions written in the project.
+* [main.h](./main.h): Header file containing prototypes for all functions written in the project.
 
 | File                     | Prototype                        |
 | ------------------------ | -------------------------------- |
