@@ -10,7 +10,7 @@ using them with `ar`, `ranlib`, and `nm`.
 ## Tasks :page_with_curl:
 
 * **0. A library is not a luxury but one of the necessities of life**
-  * [libholberton.a](./libholberton.a): C Static library containing all the functions
+  * [libmy.a](./libmy.a): C Static library containing all the functions
   listed below:
     * `int _putchar(char c);`
     * `int _islower(int c);`
