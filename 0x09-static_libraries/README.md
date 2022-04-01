@@ -33,7 +33,7 @@ using them with `ar`, `ranlib`, and `nm`.
     * `char *_strpbrk(char *s, char *accept);`
     * `char *_strstr(char *haystack, char *needle);`
 
-  * [holberton.h](./holberton.h): Header file containing the prototypes of all functions
+  * [main.h](./main.h): Header file containing the prototypes of all functions
   included in `libholberton.a`.
 
 * **1. Without libraries what have we? We have no past and no future**
