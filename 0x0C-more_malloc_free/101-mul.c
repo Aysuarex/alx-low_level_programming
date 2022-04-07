@@ -1,12 +1,13 @@
 
-	 (i = 0; argv[1][i]; i++)
-		if (argv[1][i] != '0')
-		{
-			isn1 = 0;
-			break;
-		}
 
-	#include <stdlib.h>
+		
+		
+
+
+		
+
+	
+#include <stdlib.h>
 #include <stdio.h>
 #include "main.h"
 #include <ctype.h>
