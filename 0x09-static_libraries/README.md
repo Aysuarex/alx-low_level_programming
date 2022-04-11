@@ -11,7 +11,7 @@ using them with `ar`, `ranlib`, and `nm`.
 
 * **0. A library is not a luxury but one of the necessities of life**
   * [libmy.a](./libmy.a): C Static library containing all the functions
-  listed below:
+  listed below :
     * `int _putchar(char c);`
     * `int _islower(int c);`
     * `int _isalpha(int c);`
