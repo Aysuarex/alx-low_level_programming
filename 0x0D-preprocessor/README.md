@@ -3,10 +3,6 @@
 In this project, I learned about common predefined macros in C while
 practicing implementing my own and include-guarding header files.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
 ## Tasks :page_with_curl:
 
 * **0. Object-like Macro**
