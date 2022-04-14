@@ -3,10 +3,6 @@
 In this project, I learned about using variadic functions with the `va_start`,
 `va_arg`, and `va_end` macros as well as why and how to use the `const` type qualifier in C.
 
-## Test :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
 ## Header File :file_folder:
 
 * [variadic_functions.h](./variadic_functions.h): Header file containing definitions and
@@ -17,9 +13,7 @@ prototypes for all types and functions written in the project.
 | `0-sum_them_all.c`       | `int sum_them_all(const unsigned int n, ...);`                          |
 | `1-print_numbers.c`      | `void print_numbers(const char *separator, const unsigned int n, ...);` |
 | `2-print_strings.c`      | `void print_strings(const char *separator, const unsigned int n, ...);` |
-| `3-print_all.c`          | `void print_all(const char * const format, ...);`                       |
-| `struct printer`         | <ul><li>`char *symbol`</li><li>`void (*print)(va_list arg)`</li></ul>   |
-| `typedef printer_t`      | `struct printer`                                                        |
+| `3-print_all.c`          | `void print_all(const char * const format, ...);`                       |                                                     
 
 ## Tasks :page_with_curl:
 
@@ -51,8 +45,3 @@ prototypes for all types and functions written in the project.
     `NULL`, `(nil)` is printed instead))
     * Any other character is ignored.
     * A new line is printed at the end of the function.
-
-* **4. Real programmers can write assembly code in any language**
-  * [100-hello_holberton.asm](./100-hello_holberton.asm): 64-bit assembly program that
-  prints `Hello, Holberton`, followed by a new line using only the system call
-  `write` with `int`.
