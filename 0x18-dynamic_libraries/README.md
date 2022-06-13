@@ -3,14 +3,10 @@
 In this project, learned about using dynamic libraries in C, including how to create
 them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
 
-## Tests :heavy_check_mark:
-
-* [tests](./tests): Folder of test files. Provided by Holberton School.
-
 ## Tasks :page_with_curl:
 
 * **0. A library is not a luxury but one of the necessities of life**
-  * [libholberton.so](./libholberton.so): C dynamic library containing all the functions
+  * [libdynamic.so](./libdynamic.so): C dynamic library containing all the functions
   listed below:
     * `int _putchar(char c);`
     * `int _islower(int c);`
@@ -33,8 +29,8 @@ them and how to use them with `$LD_LIBRARY_PATH`, `nm`, `ldd`, and `ldconfig`.
     * `char *_strpbrk(char *s, char *accept);`
     * `char *_strstr(char *haystack, char *needle);`
 
-  * [holberton.h](./holberton.h): Header file containing the prototypes of all functions
-  included in `libholberton.so`.
+  * [main.h](./main.h): Header file containing the prototypes of all functions
+  included in `libdynamic.so`.
 
 * **1. Without libraries what have we? We have no past and no future**
   * [1-create_dynamic_lib.sh](./1-create_dynamic_lib.sh): Bash script that creates a
