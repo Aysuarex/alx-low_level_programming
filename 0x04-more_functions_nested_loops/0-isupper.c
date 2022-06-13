@@ -1,6 +1,6 @@
 /*
  * File: 0-isupper.c
- * Auth: Brennan D Baraban
+ * Auth: Suara Ayomide
  */
 
 #include "main.h"
