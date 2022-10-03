@@ -73,7 +73,7 @@ functions written in the project.
 * **10. a + b**
   * [10-add.c](./10-add.c): C function that returns the addition of two integers.
 
-* **11. Holberton School, 98 Battery Street, San Francisco CA 94111**
+* **11. School, 98 Battery Street, San Francisco CA 94111**
   * [11-print_to_98.c](./11-print_to_98.c): C function that prints all natural numbers
   from an input to `98` followed by a new line, as follows:
     * Numbers are separated by a comma followed by a space.
