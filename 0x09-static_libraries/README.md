@@ -30,7 +30,7 @@ using them with `ar`, `ranlib`, and `nm`.
     * `char *_strstr(char *haystack, char *needle);`
 
   * [main.h](./main.h): Header file containing the prototypes of all functions
-  included in `libholberton.a`.
+  included in `libmy.a`.
 
 * **1. Without libraries what have we? We have no past and no future**
   * [create_static_lib.sh](./create_static_lib.sh): Bash script that creates a static
