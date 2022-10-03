@@ -6,8 +6,7 @@ complexities for each.
 
 ## Tests :heavy_check_mark:
 
-* [tests](./tests): Folder of test files for all tasks. Provided by Holberton
-School.
+* [tests](./tests): Folder of test files for all tasks. Provided by ALX.
 
 ## Helper Files :raised_hands:
 
