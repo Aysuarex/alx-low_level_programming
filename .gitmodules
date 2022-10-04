@@ -1,3 +1,6 @@
-[submodule "printf"]
-	path = printf
+[submodule "0x16-simple_shell"]
+	path = 0x16-simple_shell
+	url = https://github.com/aysuarex/simple_shell
+[submodule "0x11-printf"]
+	path = 0x11-printf
 	url = https://github.com/aysuarex/printf
