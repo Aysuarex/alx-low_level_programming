@@ -4,3 +4,6 @@
 [submodule "0x11-printf"]
 	path = 0x11-printf
 	url = https://github.com/aysuarex/printf
+[submodule "0x1D-binary_trees"]
+	path = 0x1D-binary_trees
+	url = https://github.com/aysuarex/binary_trees
