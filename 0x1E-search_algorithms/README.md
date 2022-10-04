@@ -1,6 +1,6 @@
 # C - Search Algorithms
 
-This was my Holberton School project on search algorithms. I implemented
+This was my ALX project on search algorithms. I implemented
 various types of search algorithms and stated the corresponding space/time
 complexities for each.
 
@@ -43,7 +43,7 @@ Data Structures
  * @next: Pointer to the next node
  *
  * Description: singly linked list node structure
- * for Holberton project
+ * for ALX project
  */
 typedef struct listint_s
 {
