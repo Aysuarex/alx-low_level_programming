@@ -43,17 +43,17 @@ working in the C programming language. The specific list of projects contained f
 
 ## Acknowledgements🙏
 
-<<<<<<< HEAD
+
 All work contained in this project was completed as part of the
  curriculum for the ALX-SE programme. ALX Africa is an online
  full-stack software engineering program that prepares students
  for careers in the tech industry using project-based peer learning.
-=======
-All work contained in this project was completed as part of the 
-curriculum for the ALX-SE programme. ALX-Africa is an online 
-full-stack software engineering program that prepares students 
-for careers in the tech industry using project-based peer learning.
->>>>>>> 04b46c22602d83b964a87c60e10aee4713b51c7c
+
+
+
+
+
+
  For more information, visit [this link](https://www.alxafrica.com//).
 
 <p align="center">
