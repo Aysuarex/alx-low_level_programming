@@ -41,7 +41,7 @@ working in the C programming language. The specific list of projects contained f
 
 * **[Suara Ayomide](https://twitter.com/Aysuarex)** <[Aysuarex](https://github.com/Aysuarex)>
 
-## Acknowledgement🙏
+## Acknowledgements🙏
 
 
 All work contained in this project was completed as part of the
